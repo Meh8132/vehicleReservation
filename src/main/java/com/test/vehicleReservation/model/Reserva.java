@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.Data;
 import java.time.LocalDateTime;
 
+// Modelo de los datos de la reserva usando JPA y Lombok
+
 @Entity
 @Data
 public class Reserva {
