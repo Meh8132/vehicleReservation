@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/reservas")
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173/"}) // CORS para React / Vite
 public class ReservaController {
     private final ReservaService reservaService;
 
